@@ -1,0 +1,47 @@
+{
+  "twitter": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token_key": "",
+    "access_token_secret": ""
+  },
+  "formats": {
+    "tweet_format": "{NUMBER_TO_WORDS} \n\nRT this tweet for more vote \nIf you're interested to join BP voting team, please tell me in reply ;) \n\n#MTVHottest BLACKPINK @ygofficialblink",
+    "reply_tweet_format": "{RANDOM_QUOTE} \n\n#MTVHottest BLACKPINK @ygofficialblink",
+    "retweet_format": "{RANDOM_WORD|8} \n\nThanks for your vote blink <3 @{USERNAME} \nRT this tweet for more vote \nIf you're interested to join BP voting team, please tell me in reply ;) \n\n#MTVHottest BLACKPINK @ygofficialblink"
+  },
+  "account": {
+    "username": "",
+	"password": ""
+  },
+  "limits": {
+    "reply_limit": 10,
+    "tweet_limit": 10,
+    "retweet_limit": 10
+  },
+  "bot": {
+    "headless": false,
+    "use_no_sandbox_param": true,
+    "search": {
+      "api_path": "search/tweets",
+      "keyword": "#MTVHottest BLACKPINK"
+    },
+    "afterProcessDelay": 5000,
+    "maxTimeout": 30000,
+    "forceCloseBrowserAfter": 180000,
+    "intervalExecution": 480000
+  },
+  "blacklist": [],
+  "modes": {
+    "tweet": {
+      "active": false
+    },
+    "reply": {
+      "active": false,
+      "thread": ""
+    },
+    "retweet": {
+      "active": false
+    }
+  }
+}
